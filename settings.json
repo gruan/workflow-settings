@@ -5,5 +5,6 @@
     "gitlens.blame.separateLines": false,
     "gitlens.codeLens.enabled": false,
     "workbench.editor.tabSizing": "shrink",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true
 }
