@@ -4,5 +4,6 @@
     "editor.minimap.enabled": false,
     "gitlens.blame.separateLines": false,
     "gitlens.codeLens.enabled": false,
-    "workbench.editor.tabSizing": "shrink"
+    "workbench.editor.tabSizing": "shrink",
+    "editor.tabSize": 2
 }
