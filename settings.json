@@ -3,5 +3,6 @@
     "workbench.editor.enablePreview": false,
     "editor.minimap.enabled": false,
     "gitlens.blame.separateLines": false,
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
+    "workbench.editor.tabSizing": "shrink"
 }

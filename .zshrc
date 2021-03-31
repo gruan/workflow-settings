@@ -20,6 +20,7 @@ alias co="git checkout"
 alias cob="git checkout -b"
 alias l="git log --pretty=format:\"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]\" --decorate --date=short"
 alias p="git push"
+alias pu="git pull"
 alias s="git status"
 # END git Commands
 
