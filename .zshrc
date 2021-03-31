@@ -26,6 +26,7 @@ alias s="git status"
 # BEGIN Instacart
 export CARROT=~/carrot
 
+alias carrot="cd $CARROT"
 alias cda="cd $CARROT/availability/availability"
 alias cdc="cd $CARROT/customers/instacart"
 alias cdl="cd $CARROT/logistics/logistics"
