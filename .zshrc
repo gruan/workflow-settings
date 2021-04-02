@@ -32,6 +32,7 @@ alias carrot="cd $CARROT"
 alias cda="cd $CARROT/availability/availability"
 alias cdc="cd $CARROT/customers/instacart"
 alias cdl="cd $CARROT/logistics/logistics"
+alias cdm="cd $CARROT/tools/migrations"
 alias cds="cd $CARROT/signals/signals"
 alias cdsr="cd $CARROT/shoppers/shoppers"
 # END Instacart
