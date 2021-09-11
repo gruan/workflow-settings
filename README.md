@@ -13,7 +13,8 @@ Personal workflow settings
 4. Copy + Paste for tmux - General > Selection > Applications in terminal may access clipboard 
 
 ### vimrc
-`ln -s ~/workflow-settings/.vimrc ~/.vimrc`
+1. Install Vundle `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+2. Symlink vimrc `ln -s ~/workflow-settings/.vimrc ~/.vimrc`
 
 ### tmux
 `ln -s ~/workflow-settings/.tmux.conf ~/.tmux.conf`
