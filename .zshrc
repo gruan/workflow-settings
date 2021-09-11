@@ -10,6 +10,11 @@ export PROF=~/.zshrc
 alias ls="ls -G"
 # END global aliases
 
+# BEGIN quality of life
+export WS=~/workflow_settings
+
+alias ws="cd WS"
+# END quality of life
 
 # BEGIN git Commands
 alias a="git add -A"
@@ -36,3 +41,9 @@ alias cdm="cd $CARROT/tools/migrations"
 alias cds="cd $CARROT/signals/signals"
 alias cdsr="cd $CARROT/shoppers/shoppers"
 # END Instacart
+
+# BEGIN Bobidi
+export BBD=~/bobidi
+
+alias bbd="cd $BBD"
+# END Bobidi
