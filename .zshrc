@@ -11,9 +11,9 @@ alias ls="ls -G"
 # END global aliases
 
 # BEGIN quality of life
-export WS=~/workflow_settings
+export WS=~/workflow-settings
 
-alias ws="cd WS"
+alias ws="cd $WS"
 # END quality of life
 
 # BEGIN git Commands
@@ -46,4 +46,6 @@ alias cdsr="cd $CARROT/shoppers/shoppers"
 export BBD=~/bobidi
 
 alias bbd="cd $BBD"
+
+alias bb="cd $BBD/arabica/backend"
 # END Bobidi
