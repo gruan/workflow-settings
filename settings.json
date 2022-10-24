@@ -1,10 +1,11 @@
 {
-    "editor.fontSize": 14,
-    "workbench.editor.enablePreview": false,
-    "editor.minimap.enabled": false,
-    "gitlens.blame.separateLines": false,
-    "gitlens.codeLens.enabled": false,
-    "workbench.editor.tabSizing": "shrink",
-    "editor.tabSize": 2,
-    "files.trimTrailingWhitespace": true
+  "editor.fontSize": 14,
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "gitlens.blame.separateLines": false,
+  "gitlens.codeLens.enabled": false,
+  "workbench.editor.tabSizing": "shrink",
+  "files.trimTrailingWhitespace": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
