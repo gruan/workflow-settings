@@ -30,22 +30,7 @@ alias pu="git pull"
 alias s="git status"
 # END git Commands
 
-# BEGIN Instacart
-export CARROT=~/carrot
-
-alias carrot="cd $CARROT"
-alias cda="cd $CARROT/availability/availability"
-alias cdc="cd $CARROT/customers/instacart"
-alias cdl="cd $CARROT/logistics/logistics"
-alias cdm="cd $CARROT/tools/migrations"
-alias cds="cd $CARROT/signals/signals"
-alias cdsr="cd $CARROT/shoppers/shoppers"
-# END Instacart
-
-# BEGIN Bobidi
-export BBD=~/bobidi
-
-alias bbd="cd $BBD"
-
-alias bb="cd $BBD/arabica/backend"
-# END Bobidi
+# BEGIN Docker commands
+alias d='docker'
+alias dc='docker-compose'
+alias dcp='docker-compose -f docker-compose.prod.yml'
