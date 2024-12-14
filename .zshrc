@@ -21,6 +21,7 @@ alias a="git add -A"
 alias am="git add -A && git commit -am"
 alias b="git branch"
 alias bd="git branch -D"
+alias bda="git branch | grep -v "main" | xargs git branch -d" # Delete all unmerged branches
 alias c="git commit -m"
 alias co="git checkout"
 alias cob="git checkout -b"
@@ -33,4 +34,7 @@ alias s="git status"
 # BEGIN Docker commands
 alias d='docker'
 alias dc='docker-compose'
-alias dcp='docker-compose -f docker-compose.prod.yml'
+alias dcp='docker-compose -f $MROOT/docker-compose.prod.yml'
+
+# PR Agent
+alias pragent="~/pr-agent/dist/main"
