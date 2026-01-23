@@ -31,15 +31,6 @@ alias pu="git pull"
 alias s="git status"
 # END git Commands
 
-<<<<<<< HEAD
-# BEGIN Docker commands
-alias d='docker'
-alias dc='docker-compose'
-alias dcp='docker-compose -f $MROOT/docker-compose.prod.yml'
-
-# PR Agent
-alias pragent="~/pr-agent/dist/main"
-=======
 # BEGIN Instacart
 # export CARROT=~/carrot
 
@@ -117,4 +108,3 @@ export FNM_ARCH="arm64"
 # BOMI
 export GOOGLE_CLOUD_QUOTA_PROJECT="bomi-479905"
 # END BOMI
->>>>>>> 5bcb2ea (Workflow setting updates)
