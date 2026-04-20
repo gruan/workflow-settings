@@ -26,3 +26,14 @@ Personal workflow settings
 ### VSCode
 `ln -s ~/workflow-settings/settings.json ~/Library/Application\ Support/Code/User/settings.json`
 `ln -s ~/workflow-settings/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json`
+
+### VSCode Extensions
+
+#### Bomi ERD Docs
+Side-by-side Markdown preview with Mermaid rendering for ERDs. Built from source in the bomi-root workspace:
+```
+cd ~/bomi-root/workspace-tools/erd-docs/packages/vscode-extension
+pnpm build
+npx @vscode/vsce package --no-dependencies
+code --install-extension bomi-erd-docs-*.vsix
+```
