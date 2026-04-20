@@ -51,6 +51,9 @@ alias s="git status"
 # alias bb="cd $BBD/arabica/backend"
 # END Bobidi
 
+# PR Agent
+alias pragent="~/pr-agent/dist/main"
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
@@ -82,6 +85,7 @@ eval "$(pyenv virtualenv-init -)"
 # END PYENV
 
 # Docker
+alias d='docker'
 alias dc="docker-compose"
 alias dcp="docker-compose -f docker-compose.prod.yml"
 alias dcd="docker-compose -f docker-compose.dev.yml"
