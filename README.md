@@ -25,3 +25,4 @@ Personal workflow settings
 
 ### VSCode
 `ln -s ~/workflow-settings/settings.json ~/Library/Application\ Support/Code/User/settings.json`
+`ln -s ~/workflow-settings/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json`
